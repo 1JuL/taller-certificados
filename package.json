@@ -1,0 +1,17 @@
+{
+  "name": "taller-certificados",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "ms-client/server.js",
+  "scripts": {
+    "start:backend-a": "node ms-backend-a/server.js",
+    "start:backend-b": "node ms-backend-b/server.js",
+    "start:client": "node ms-client/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
